@@ -1,4 +1,4 @@
-#Sum of First 1000 Primes
+#Sum of First 1000 Primes.  One of my earliest ruby attempts.
 def prime? n
   return false if n < 2
   (2..Math.sqrt(n)).none? {|num| n % num == 0}
